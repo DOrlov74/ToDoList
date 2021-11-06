@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ToDoList/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/ToDoList/static/js/main.cf4e9d83.chunk.js",
+    "main.js.map": "/ToDoList/static/js/main.cf4e9d83.chunk.js.map",
+    "runtime-main.js": "/ToDoList/static/js/runtime-main.2465a479.js",
+    "runtime-main.js.map": "/ToDoList/static/js/runtime-main.2465a479.js.map",
+    "static/css/2.44a7dae9.chunk.css": "/ToDoList/static/css/2.44a7dae9.chunk.css",
+    "static/js/2.2a16c4dc.chunk.js": "/ToDoList/static/js/2.2a16c4dc.chunk.js",
+    "static/js/2.2a16c4dc.chunk.js.map": "/ToDoList/static/js/2.2a16c4dc.chunk.js.map",
+    "static/js/3.25a70625.chunk.js": "/ToDoList/static/js/3.25a70625.chunk.js",
+    "static/js/3.25a70625.chunk.js.map": "/ToDoList/static/js/3.25a70625.chunk.js.map",
+    "index.html": "/ToDoList/index.html",
+    "static/css/2.44a7dae9.chunk.css.map": "/ToDoList/static/css/2.44a7dae9.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/ToDoList/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.2a16c4dc.chunk.js.LICENSE.txt": "/ToDoList/static/js/2.2a16c4dc.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/ToDoList/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2465a479.js",
+    "static/css/2.44a7dae9.chunk.css",
+    "static/js/2.2a16c4dc.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.cf4e9d83.chunk.js"
+  ]
+}
