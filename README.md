@@ -7,6 +7,10 @@ The program displays a list of tasks with functionality to edit, delete, make a 
 
 - Typescript
 - React 17
-- React hooks
+- React Hooks
 - React Router
 - Semantic Ui React
+
+## Published
+
+The site is published at https://dorlov74.github.io/ToDoList/

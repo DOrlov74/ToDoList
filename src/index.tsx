@@ -8,7 +8,7 @@ import ToDoProvider from './components/ToDoProvider';
 
 ReactDOM.render(
     <ToDoProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/ToDoList" >
         <App />
       </BrowserRouter>
     </ToDoProvider>,
