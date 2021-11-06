@@ -1,24 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from 'react';
+import 'semantic-ui-css/semantic.min.css'
+import NavBar from './components/NavBar';
+import { Container, Message } from 'semantic-ui-react';
+import { Route, Switch } from 'react-router-dom';
+import ToDoList from './components/ToDoList';
+import ToDoForm from './components/ToDoForm';
+import { ToDoContext } from './components/ToDoProvider';
 
 function App() {
+const {message} = useContext(ToDoContext);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+        <Container text style={{marginTop: '3em'}}>
+          <Switch>
+            <Route path='/' exact component={ToDoList}/>
+            <Route path={['/newtodo','/edittodo/:id']} 
+              component={ToDoForm}/>
+          </Switch>
+          {message && 
+            <Message
+                    error={!message.success}
+                    success={message.success}
+                    header={message.header}
+                    content={message.content}
+                />
+          }
+        </Container>
     </div>
   );
 }
